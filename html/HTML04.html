@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .div1{
+            position: absolute;  //位置的顺序是回影响定位效果
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 400px;
+            height: 200px;
+            background-color: #ccc;
+            overflow: hidden;
+
+        }
+        .left{
+            width: 100px;
+            height: 100px;
+            background-color: #fc0;
+            border-radius: 50%;
+            position: absolute;
+            left:-50px;
+            top: -50px;
+        }
+        .right{
+            width: 100px;
+            height: 100px;
+            background-color: #fc0;
+            border-radius: 50%;
+            position: absolute;
+            right:-50px;
+            bottom: -50px;
+        }
+    </style>
+</head>
+<body>
+<div class="div1">
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+
+</body>
+</html>
