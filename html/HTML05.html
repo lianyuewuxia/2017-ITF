@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en"  >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        *{margin: 0; padding: 0; font-family: "Microsoft YaHei UI";}
+        h1{font-size: 2em;}
+        body{font-size: 0.8em;background-color: #dedede;
+        }
+        table{width: 100%;margin-left:10px; }
+        td,tr{display: table-cell;  vertical-align: inherit;}
+        tr{display: table-row;}
+        thead{ vertical-align: middle; background-color: #333333;color: white;text-align: center;}
+        table{    display: table;  border-collapse: separate;  border-spacing: 2px;  border-color: grey; }
+        table tbody tr, table tbody td{
+            border:1px solid #cccccc;}
+        tfoot{vertical-align: middle;background-color: #cccccc;}
+        /*头部分*/
+        .nav{  background-color: #333333;  color: #ffffff;  position: relative;}
+        .nav ul a{  text-decoration: none; color: #ffffff; }
+        .nav li{display: inline;}
+        .nav-links{position: absolute; right: 2%;top: 30%; }
+        /*主体部分*/
+        .article{background-color: #fff; margin: 25px; padding: 25px;box-shadow:10px 10px 5px #888888;}
+        .article h2,.article h3, .article span, .article p{padding: 10px;}
+        .article h3{  color: #706B71; font-size: 1rem;}
+        .article span{color: #939393; font-size: 12px;}
+        .article img{margin: 10px 0px 10px 0px; }
+        .article ul{list-style-type: none;}
+        .img{border: 1px solid #eee; display: inline-block; padding: 10px;}
+        .img img{  width: 90px;}
+        .article ol{padding: 10px 0 0 53px;}
+        .rig-table{font-size: 0.8rem;}
+        .rig-table ul li{padding-top: 10px;}
+        .rig-table li label, h5{width: 110px;text-align: right; display: inline-block;}
+        .rig-table label {font-size: 12px;padding-right: 2px;}
+        .rig-table .unpie{width: 20px;}
+        .rig-table-btm{  display: block;background-color: #3355d0;width: 100%;border-radius:15px; height: 40px;color: white;line-height: 40px;}
+        .rig-table li{line-height: 10px; }
+        .pint{display: block;margin-left: 33.5%;}
+        .left-nav{position: absolute;width: 300px;top: 42px;right: -5px;}
+        .mian{margin-right: 380px;}
+        .h3-title{border-left: 4px solid #eeeeee;}
+        .nav-links a:link{color: #706B71;}
+        .nav-links a:hover{color: white}
+        .foot{height: 40px;background-color: black;text-align: center;color: white;font-size: 16px;}
+    </style>
+</head>
+<div class="nav">
+    <h1>Code matters</h1>
+    <ul class="nav-links">
+        <li><a href="#">导航链接一</a></li>
+        <li><a href="#">导航链接二</a></li>
+        <li><a href="#">导航链接三</a></li>
+        <li><a href="#">导航链接四</a></li>
+    </ul>
+</div>
+<div class="mian">
+    <div class="article">
+        <h2>文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <span>文章作者</span> <span>文章发表时间</span>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 还行了</br>
+            这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 <a href="#">这里有一个链接到http://ife.baidu.com</a>
+            这是一个很长很长的段落 这是一个很长很长的段落 <strong>这里有个粗体字</strong>这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落</br>
+            <img src="img/logo.png" alt="nihao" width="100" height="100">
+            </br>
+            这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 还行了</br>
+            这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 <a href="#">这里有一个链接到http://ife.baidu.com</a> 这是一个很长很长的段落
+            这是一个很长很长的段落 这是一个很长很长的段落 <strong>这里有个粗体字</strong>这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落</P>
+    </div>
+    <div class="article">
+        <h2>另一篇文章的一级标题</h2>
+        <h3>文章二级标题</h3>
+        <span>文章作者 文章发表时间</span>
+        <p>这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 还行了</br>
+            这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 <a href="#">这里有一个链接到http://ife.baidu.com</a>
+            这是一个很长很长的段落 这是一个很长很长的段落 <strong>这里有个粗体字</strong>这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落 这是一个很长很长的段落</P>
+        <img src="img/logo.png" alt="nihao">
+        <ul>
+            <li><a>项目列表一</a></li>
+            <li><a>项目列表二</a></li>
+            <li><a>项目列表三</a></li>
+        </ul>
+    </div >
+    <div class="article">
+        <h3>图片</h3>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+        <div class="img">
+            <p>好看的图片</p>
+            <img src="img/logo.png" alt="nihao">
+        </div>
+    </div>
+    <div class="article">
+        <h2>最后一篇文章的一级标题</h2>
+        <h3><文章二级标题></文章二级标题></h3>
+        <span>文章作者 文章发表时间</span>
+        <ol>
+            <li>排名一</li>
+            <li>排名二</li>
+            <li>排名三</li>
+        </ol>
+        <p>下面是一个表格，给表格加了一个border="1"好让你看出来是一个表格</p>
+        <table>
+            <thead>
+            <tr>
+                <td>表头</td>
+                <td>表头</td>
+                <td>表头</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </>           </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>总计</td>
+                <td colspan="2">1000</td>
+                <td></td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+<div class="article left-nav">
+    <h3 class="h3-title">这里以后是一个侧栏，这是侧栏的标题</h3>
+    <form class="rig-table">
+        <ul>
+            <li>
+                <label for="mail_address">请输入邮箱地址</label>
+                <input type="text" id="mail_address" value="这是一个文本输入框" name="mail_address">
+                <span class="pint">邮箱地址请按照要求格式输入</span>
+            </li>
+            <li>
+                <label>请输入密码</label><input type="password" value="这是一个文本输入框">
+            </li>
+            <li>
+                <label> 请重新输入密码</label><input type="password" value="这是一个文本输入框">
+                <span class="pint">密码请为6-16为英文数字</span>
+
+            </li>
+            <li>
+                <h5>性别</h5>
+                <input type="radio"> <label class="unpie">男</label><input type="radio"><label class="unpie">女</label>
+            </li>
+            <li>
+                <h5>城市</h5>
+                <select>
+                    <option>北京</option>
+                    <option>长沙</option>
+                    <option>娄底</option>
+                    <option>怀化</option>
+                </select>
+            </li>
+            <li>
+                <h5>爱好</h5>  <input type="checkbox">运动 <input type="checkbox">艺术 <input type="checkbox">科学 <input type="checkbox">
+            </li>
+            <li>
+                <h5 style="vertical-align: top">个人描述</h5><textarea rows="5" cols="25">这是一个多行输入框，输入您的个人描述</textarea>
+                <input type="button" value="确认提交" class="rig-table-btm"></span>
+            </li>
+        </ul>
+    </form>
+</div>
+
+<div class="foot"><p>版权所有©QQH制作</p></div>
+</body>
+</html>
