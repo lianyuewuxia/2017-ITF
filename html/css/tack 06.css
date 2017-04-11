@@ -1,7 +1,7 @@
 .main{
     position: absolute;
     left: 300px;
-    right: 0;
+    right: 0px;
     width: 980px;
     padding: 0 45px;
 
@@ -13,7 +13,7 @@
 }
 .nav-left{
     width: 110px;
-    height: 60px;
+    height: 60px;s
     background-color: #D45C5B;
     color: white;
     display: inline-block;
